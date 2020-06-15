@@ -1,0 +1,260 @@
+/* HTML Tags */
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+p {
+  color: #8F8F8F;
+  font-size: 1rem;
+}
+
+/* Navbar */
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  font-size: 1.25rem;
+  margin: 0 1rem;
+}
+
+/* Title Section */
+#title {
+  padding: 4% 10%;
+  background-color: #0099FF
+}
+
+.title-div {
+  margin-top: 6%;
+}
+
+.title-header {
+  color: #fff;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+  margin-bottom: 5%;
+}
+
+.title-img {
+  transform: rotate(25deg);
+  width: 65%;
+  position: absolute;
+  top: -4%;
+  right: 30%;
+}
+
+.download {
+  margin: 5% 3% 3% 0;
+}
+
+/* Features Section */
+#features {
+  background-color: #fff;
+  position: relative;
+  text-align: center;
+  padding: 6% 10% 2%;
+}
+
+.features-img {
+  width: 80%;
+  margin-bottom: 8%;
+}
+
+.feature-head {
+  color: #0099FF;
+  font-size: 1.75rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+}
+
+.feature-txt {
+  padding: 0 12%;
+  margin-bottom: 18%;
+}
+
+.fa-check-circle {
+  color: #8F8F8F;
+  margin-bottom: 3%;
+}
+
+/* Gallery Section */
+#gallery {
+  background: linear-gradient(to top, #ffffff -120%, #0099ff 220%);
+}
+
+.carousel {
+  padding: 7% 15%;
+}
+
+/* Pricing Section */
+#pricing {
+  text-align: center;
+  padding: 7% 10%;
+}
+
+.price-header {
+  color: #0099ff;
+  font-size: 3rem;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+  margin-bottom: 1%;
+}
+
+.price-txt {
+  font-weight: bold;
+  color: #FF6C00;
+  margin-bottom: 6%;
+}
+
+.fa-rupee-sign {
+  margin-left: 2%;
+}
+
+.card {
+  padding: 2%;
+  margin: 10% 10% 3% 5%;
+}
+
+.card-header {
+  color: #000;
+  font-weight: bold;
+}
+
+/* CTA Section */
+#cta {
+  padding: 7% 20%;
+  background-color: #0099ff;
+  color: #fff;
+  text-align: center;
+}
+
+.cta-header {
+  font-weight: bold;
+  font-size: 3.5rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.5;
+}
+
+.cta-btn {
+  margin: 5% 2.5% 0;
+}
+
+/* Footer Section */
+footer {
+  margin: 7% 15% 8%;
+  text-align: center;
+}
+
+.footer-icon {
+  margin: 3% 1.25%;
+}
+
+.blog {
+  color: #FF6C00;
+}
+
+.fb {
+  color: #004CFF;
+}
+
+.insta {
+  color: #FF2A00;
+}
+
+.mail {
+  color: grey;
+}
+
+/* Media Query */
+@media (max-width: 991px) {
+
+  /* Title */
+  #title {
+    text-align: center;
+    padding-bottom: 7%;
+    margin-bottom: 6%;
+  }
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.title-header {
+  font-size: 2.5rem;
+}
+
+.download-txt {
+  font-size: 1rem;
+}
+
+.download {
+  padding: 2% 3%;
+  margin: 5% 3% 4%;
+}
+
+  .title-img {
+    transform: rotate(0);
+    width: 90%;
+    position: relative;
+    right: 2.5%;
+    top: 2%;
+  }
+
+  /* Features */
+  .features-img {
+    width: 90%;
+    margin-bottom: 6%;
+  }
+
+/* Gallery */
+
+#gallery {
+  padding: 7% 0;
+  margin-bottom: 7%;
+}
+
+/* Pricing */
+
+.price-header {
+  font-size: 2.5rem;
+  margin-bottom: 5%;
+}
+
+.price-sub {
+  padding: 0 12%;
+}
+
+/* CTA */
+
+#cta {
+  padding: 10% 12%;
+  margin-top: 5%;
+}
+
+.cta-header {
+  font-size: 2.5rem;
+}
+
+.cta-btn {
+  padding: 2% 3%;
+}
+
+  /* Footer */
+  footer {
+    padding: 3% 0;
+  }
+
+  .footer-icon {
+    margin: 8% 4%;
+  }
+}
