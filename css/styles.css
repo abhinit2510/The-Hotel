@@ -265,6 +265,7 @@ footer {
   }
 
   .card {
+    padding: 5% 5% 3%;
     margin: 15% 5% 3%;
   }
 
@@ -306,5 +307,17 @@ footer {
   .footer-icon {
     font-size: 3rem;
     margin: 8% 5%;
+  }
+
+  .blog {
+    color: #FF905D;
+  }
+
+  .fb {
+    color: #61B4FF;
+  }
+
+  .insta {
+    color: #FF806F;
   }
 }
