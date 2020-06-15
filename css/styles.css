@@ -161,15 +161,15 @@ footer {
 }
 
 .blog {
-  color: #FF6C00;
+  color: #FF852B;
 }
 
 .fb {
-  color: #004CFF;
+  color: #2B83FF;
 }
 
 .insta {
-  color: #FF2A00;
+  color: #FF5942;
 }
 
 .mail {
@@ -185,7 +185,7 @@ footer {
   /* Title */
   #title {
     text-align: center;
-    padding: 4% 7% 7%;
+    padding: 7% 7% 10%;
     margin-bottom: 6%;
   }
 
@@ -199,7 +199,7 @@ footer {
 
   .title-header {
     color: #fff;
-    font-size: 5rem;
+    font-size: 6rem;
     margin: 5% 0 10%;
   }
 
@@ -228,15 +228,16 @@ footer {
 
   .features-img {
     width: 90%;
-    margin-bottom: 6%;
+    margin-bottom: 5%;
+    margin-top: 3%;
   }
 
   .fa-check-circle {
-    font-size: 7rem;
+    font-size: 6rem;
   }
 
   .feature-head {
-    font-size: 5rem;
+    font-size: 4rem;
     margin: 2% 0;
   }
 
@@ -246,16 +247,16 @@ footer {
   }
 
   .carousel {
-    padding: 15% 5%;
+    padding: 20% 0;
   }
 
   /* Pricing */
   #pricing {
-    padding: 7% 10%;
+    padding: 10%;
   }
 
   .price-header {
-    font-size: 5rem;
+    font-size: 6rem;
     margin-bottom: 5%;
   }
 
@@ -264,7 +265,7 @@ footer {
   }
 
   .card {
-    margin: 10% 10% 3%;
+    margin: 15% 10% 3%;
   }
 
   .card-header {
