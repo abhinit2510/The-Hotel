@@ -12,6 +12,7 @@ h3 {
 p {
   color: #8F8F8F;
   font-size: 1rem;
+  line-height: 1.5;
 }
 
 /* Navbar */
@@ -62,7 +63,7 @@ p {
   background-color: #fff;
   position: relative;
   text-align: center;
-  padding: 6% 10% 2%;
+  padding: 8% 8% 2%;
 }
 
 .features-img {
@@ -75,16 +76,16 @@ p {
   font-size: 1.75rem;
   font-weight: bold;
   letter-spacing: 0.1rem;
+  margin: 3% 0;
 }
 
 .feature-txt {
-  padding: 0 12%;
+  padding: 0 17%;
   margin-bottom: 18%;
 }
 
 .fa-check-circle {
   color: #8F8F8F;
-  margin-bottom: 3%;
 }
 
 /* Gallery Section */
@@ -175,79 +176,98 @@ footer {
   color: grey;
 }
 
-/* Media Query */
+/* ---------------- Media Query ----------------- */
 @media (max-width: 991px) {
+  p {
+    font-size: 1.5rem;
+  }
 
   /* Title */
   #title {
     text-align: center;
-    padding-bottom: 7%;
+    padding-bottom: 2%;
     margin-bottom: 6%;
   }
 
-.navbar-brand {
-  font-size: 1.5rem;
-}
+  .nav-item {
+    font-size: 2rem;
+  }
 
-.title-header {
-  font-size: 2.5rem;
-}
+  .navbar-toggler-icon {
+    font-size: 2.5rem;
+  }
 
-.download-txt {
-  font-size: 1rem;
-}
-
-.download {
-  padding: 2% 3%;
-  margin: 5% 3% 4%;
-}
+  .download {
+    padding: 3% 5%;
+    margin: 5% 3% -5%;
+    font-size: 1.5rem;
+  }
 
   .title-img {
     transform: rotate(0);
-    width: 90%;
+    width: 110%;
     position: relative;
-    right: 2.5%;
+    right: 6%;
     top: 2%;
   }
 
   /* Features */
+  #features {
+    padding: 10% 3% 2%;
+  }
+
   .features-img {
     width: 90%;
     margin-bottom: 6%;
   }
 
-/* Gallery */
+  .fa-check-circle {
+    font-size: 5rem;
+  }
 
-#gallery {
-  padding: 7% 0;
-  margin-bottom: 7%;
-}
+  .feature-head {
+    font-size: 3rem;
+    margin: 3% 0;
+  }
 
-/* Pricing */
+  /* Gallery */
+  #gallery {
+    margin-bottom: 7%;
+  }
 
-.price-header {
-  font-size: 2.5rem;
-  margin-bottom: 5%;
-}
+  .carousel {
+    padding: 10%;
+  }
 
-.price-sub {
-  padding: 0 12%;
-}
+  /* Pricing */
+  .price-header {
+    font-size: 3.5rem;
+    margin-bottom: 5%;
+  }
 
-/* CTA */
+  .price-sub {
+    padding: 0 12%;
+  }
 
-#cta {
-  padding: 10% 12%;
-  margin-top: 5%;
-}
+  .card {
+    margin: 10% 20% 3%;
+  }
 
-.cta-header {
-  font-size: 2.5rem;
-}
+  /* CTA */
+  #cta {
+    padding: 12%;
+    margin-top: 5%;
+  }
 
-.cta-btn {
-  padding: 2% 3%;
-}
+  .cta-header {
+    font-size: 3.5rem;
+  }
+
+  .cta-btn {
+    padding: 3% 5%;
+    margin: 6% 4% 0;
+    font-size: 1.5rem;
+  }
 
   /* Footer */
   footer {
@@ -255,6 +275,7 @@ footer {
   }
 
   .footer-icon {
-    margin: 8% 4%;
+    font-size: 5rem;
+    margin: 8% 5%;
   }
 }
