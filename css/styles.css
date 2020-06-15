@@ -160,8 +160,8 @@ footer {
   margin: 3% 1.25%;
 }
 
-.blog {
-  color: #FF852B;
+.yt {
+  color: #FF3A3A;
 }
 
 .fb {
@@ -269,6 +269,10 @@ footer {
     margin: 15% 5% 3%;
   }
 
+  .card-body p {
+    margin-bottom: 4%;
+  }
+
   .card-header {
     font-size: 3rem;
   }
@@ -311,8 +315,8 @@ footer {
     margin: 8% 5%;
   }
 
-  .blog {
-    color: #FF905D;
+  .yt {
+    color: #FF5959;
   }
 
   .fb {
