@@ -122,7 +122,7 @@ p {
 }
 
 .card {
-  padding: 2%;
+  padding: 3% 3% 1%;
   margin: 10% 10% 3% 5%;
 }
 
@@ -204,7 +204,7 @@ footer {
   }
 
   .download-txt {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 
   .download {
@@ -223,7 +223,7 @@ footer {
 
   /* Features */
   #features {
-    padding: 12% 3% 2%;
+    padding: 12% 3% 4%;
   }
 
   .features-img {
@@ -243,7 +243,7 @@ footer {
 
   /* Gallery */
   #gallery {
-    margin-bottom: 7%;
+    margin-bottom: 8%;
   }
 
   .carousel {
@@ -252,7 +252,7 @@ footer {
 
   /* Pricing */
   #pricing {
-    padding: 10%;
+    padding: 12% 10%;
   }
 
   .price-header {
@@ -265,7 +265,7 @@ footer {
   }
 
   .card {
-    margin: 15% 10% 3%;
+    margin: 15% 5% 3%;
   }
 
   .card-header {
@@ -275,6 +275,11 @@ footer {
   .price-txt {
     font-size: 5rem;
     margin: 5% 0;
+  }
+
+  .buy-btn {
+    padding: 3% 0;
+    margin: 6% 0 2%;
   }
 
   /* CTA */
